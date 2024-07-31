@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #190361;
+    
+
+    /* background: linear-gradient(45deg, #190361, #bb00ff);
+	animation: gradient 10s ease infinite;
+    background-size: 200% 200%; */
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen1 {
+    background-color: #fff;
+    max-width: 42.8rem;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 4.8rem 6.4rem 6.4rem;
+    
+
+}
+
+h1, h2 { 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+}
+
+p {
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.screen2 {
+    display: grid;
+    place-items: center;
+    gap: 1.7rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 4.8rem 6.4rem;
+    max-width: 42.8rem;
+    text-align: center;
+}
+
+.message {
+    background-color: #E4EDF1;
+    box-shadow: black;
+    padding: 1rem;
+}
+
+
+.message p {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.4rem;
+}
+
+.screen2 button {
+    background-color: #FF9500;
+    color: #fff;
+    padding: 1.6rem;
+    max-width: 17.4rem;
+    border: none;
+    border-radius: .4rem;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+
+}
+
+.hide {
+    display: none;
+}
+
+.screen1 img {
+    cursor: pointer;
+}
+
+.screen1 img:hover {
+    width: 100%;
+    transition: 1s;
+}
+
+.screen2 button:hover {
+    background-color: #cc7700;
+}
+
